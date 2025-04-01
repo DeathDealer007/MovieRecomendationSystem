@@ -69,7 +69,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 st.markdown('<p class="title-text" style="font-size:36px; font-weight:bold;">Movie Recommender System</p>', unsafe_allow_html=True)
-st.markdown('<p class="subtitle-text" style="font-size:20px;">Made By: Vraj Shah</p>', unsafe_allow_html=True)
+st.markdown('<p class="subtitle-text" style="font-size:20px;">Made By: Ankit Shah</p>', unsafe_allow_html=True)
 
 st.markdown('<p class="selectbox-label" style="font-size:20px;">Select a movie:</p>', unsafe_allow_html=True)
 selected_movie_name = st.selectbox('', movies['title'].values, key='select_movie')
